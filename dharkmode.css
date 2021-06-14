@@ -1,0 +1,58 @@
+html, body {
+    width: 100%
+    padding: 0px;
+    margin: 0px;
+}
+.inStock, .notInStock {
+    padding: 10px;
+    margin: 10px 0;
+    font-family: Helvetica;
+  }
+  
+  #objRow {
+    margin: 5px;
+    display: flex;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    padding: 50px, 10px;
+  }
+  .inStock {
+    padding: 20px;
+    margin: auto;
+    width: 33%;
+    background-color: rgb(70, 70, 70);
+  }
+
+  body, div, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 100vh;
+    padding: 10px; 
+  }
+  
+  #clickMe {
+    background-color: rgb(208, 212, 212);
+    display: inline-block;
+    padding:10px;
+    font-family: Helvetica;
+    border-radius: 3px;
+  }
+  
+  #clickMe:hover {
+    cursor: pointer;
+  }
+  
+  
+  .darkMode {
+    background-color: rgb(54, 54, 54);
+  }
+  .h1t {
+      background-color: black;
+      width: 50px;
+      height: 2px;
+  }
